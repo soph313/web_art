@@ -18,6 +18,7 @@ body {
     position: fixed;
     background-image: url(/images/paper.jpg);
     background-size: 100% calc(max(200px, 100%));
+    background-repeat: no-repeat;
 }
 
 #clicker {
@@ -25,6 +26,7 @@ body {
     border-radius: clamp(10px, 1vw, 20px);
     background-image: url(/images/paper.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
