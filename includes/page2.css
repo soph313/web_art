@@ -7,9 +7,12 @@
 body {
     background-image: url(/images/paper.jpg);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     position: fixed;
+    background-position: center; 
 }
+
+
 
 .container {
     position: relative;
