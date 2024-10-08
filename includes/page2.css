@@ -7,9 +7,12 @@
 body {
     background-image: url(/images/paper.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    background-position: center; 
+    background-size: cover; /* or contain based on your needs */
+    background-position: center; /* Center the background */
+    position: relative; /* Change to relative */
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    width: 100vw; /* Ensure the body takes the full viewport width */
+    overflow: hidden; /* Prevent scrolling of the body */
 }
 
 
